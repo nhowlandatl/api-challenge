@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Firebase Comments</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apiKey.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
+
 <body>
+    <div id="main-content">
+        <h1>Comments Project Challenge</h1>
+        <form action="" id="commentForm">
+            <textarea id="textarea-container" name="commentText" id="" cols="30" rows="10" placeholder="Add a comment"></textarea>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <div class="comments" id="comments">
 
 
-<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
-<script src="script.js"></script>
+        </div>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
