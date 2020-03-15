@@ -1,12 +1,37 @@
 #textarea-container {
-	resize: none;
+    resize: none;
 }
 
 .comments {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .btn {
-	text-area: center;
+    text-area: center;
+}
+
+.comment {
+    margin: 20px;
+    padding-left: 20px;
+    width: fit-content;
+}
+
+#commentForm {
+    padding-left: 20px;
+}
+
+span {
+    padding-left: 20px;
+}
+
+.dialogbox .body {
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: 20px 10px;
+    padding: 5px;
+    background-color: #DADADA;
+    border-radius: 3px;
+    border: 2px solid #ccc;
 }
